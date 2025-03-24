@@ -1,0 +1,20 @@
+body {
+  width: 100%;
+  background-color: beige;
+  color: black;
+}
+
+#image-container img {
+  width: auto;
+  height: 400px;
+}
+
+#image-container {
+  display: flex;
+  gap: 10px;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
