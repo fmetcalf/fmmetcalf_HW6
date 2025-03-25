@@ -21,7 +21,7 @@ body {
   font-size: 1.25rem;
   padding: 2px;
   display: flex;
-  flex-direction: row; /* Aligns content horizontally */
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -92,10 +92,10 @@ thead {
 }
 
 aside {
-  position: absolute; /* or use 'fixed' if you want it to stay while scrolling */
-  right: 0; /* Moves aside to the right side of the screen */
+  position: absolute;
+  right: 0;
   top: 50%;
-  width: 250px; /* Adjust width as needed */
+  width: 250px;
   padding: 20px;
   border-left: 2px solid #ccc;
   border-top: 2px solid #ccc;
@@ -103,7 +103,13 @@ aside {
 }
 
 main {
-  width: 70%; /* Adjust the width of the main content */
+  width: 70%;
   padding: 20px;
   box-sizing: border-box;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  clear: both;
 }
