@@ -20,6 +20,9 @@ body {
   color: black;
   font-size: 1.25rem;
   padding: 2px;
+  display: flex;
+  flex-direction: row; /* Aligns content horizontally */
+  justify-content: space-between;
 }
 
 header {
@@ -86,4 +89,21 @@ thead {
 
 .info {
   background-color: lightblue;
+}
+
+aside {
+  position: absolute; /* or use 'fixed' if you want it to stay while scrolling */
+  right: 0; /* Moves aside to the right side of the screen */
+  top: 50%;
+  width: 250px; /* Adjust width as needed */
+  padding: 20px;
+  border-left: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+main {
+  width: 70%; /* Adjust the width of the main content */
+  padding: 20px;
+  box-sizing: border-box;
 }
